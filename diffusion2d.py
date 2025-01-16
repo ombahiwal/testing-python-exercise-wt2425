@@ -43,7 +43,7 @@ class SolveDiffusion2D:
         self.h = h
         self.dx = dx
         self.dy = dy
-        # modified to fail test
+        # Purposely break
         self.nx = int(h / dx)
         self.ny = int(h / dy)
 
@@ -51,7 +51,8 @@ class SolveDiffusion2D:
         assert type(d) == float, "d must be a float"
         assert type(T_cold) == float, "T_cold must be a float"
         assert type(T_hot) == float, "T_cold must be a float"
-        self.D = d
+        # Purposely break
+        # self.D = d
         self.T_cold = T_cold
         self.T_hot = T_hot
 
@@ -66,7 +67,9 @@ class SolveDiffusion2D:
 
         # Initial conditions - circle of radius r centred at (cx,cy) (mm)
         r, cx, cy = 2, 5, 5
-        r2 = r ** 2
+        # purposely break
+        r2 = 0
+        # r2 = r ** 2
         for i in range(self.nx):
             for j in range(self.ny):
                 p2 = (i * self.dx - cx) ** 2 + (j * self.dy - cy) ** 2
