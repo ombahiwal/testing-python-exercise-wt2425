@@ -367,6 +367,7 @@ Process finished with exit code 1
 ```
 
 #### Step 6 : Coverage
+
 ## Citing
 
 The code used in this exercise is based on [Chapter 7 of the book "Learning Scientific Programming with Python"](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/).
