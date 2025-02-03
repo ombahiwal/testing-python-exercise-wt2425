@@ -366,6 +366,20 @@ Process finished with exit code 1
 
 ```
 
+#### New Output
+```
+./venv/bin/python3 -m pytest
+========================================================================== test session starts ==========================================================================
+platform darwin -- Python 3.9.6, pytest-8.3.4, pluggy-1.5.0
+rootdir: /Users/ombahiwal/Desktop/WS24-local/res-sim-se/testing-python-exercise-wt2425
+configfile: pyproject.toml
+collected 6 items                                                                                                                                                       
+
+tests/integration/test_diffusion2d.py ..                                                                                                                          [ 33%]
+tests/unit/test_diffusion2d_functions.py ....                                                                                                                     [100%]
+
+=========================================================================== 6 passed in 0.31s ===========================================================================
+```
 #### Step 6 : Coverage
 
 ## Citing
